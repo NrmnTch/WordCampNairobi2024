@@ -1,2 +1,10 @@
 body {
   }
+
+
+
+
+/*  Temporary Styles for Admin UI  */
+body #wpadminbar {
+    position: relative;
+}
