@@ -1,8 +1,32 @@
-body {
-  }
+/*  
+	Nairobi Burgundy		#241921
+	Nairobi Purple			#723e62
+	Nairobi Orange			#ef4d26
+	Nairobi Gold 			#fdb958
+*/
 
 
 
+
+/*	HEADER SECTION
+===================================================
+===============================================  */
+	
+	/*  Block Nav  */
+.wp-block-navigation.nairobi-blocknav-header ul li a.wp-block-navigation-item__content {
+	}	
+	
+	
+	
+
+	
+wp-block-navigation
+
+/*	TEMPORARY STYLES FOR ADMIN UI
+===================================================
+===============================================  */
+	
+	
 
 /*  Temporary Styles for Admin UI  */
 body #wpadminbar {
