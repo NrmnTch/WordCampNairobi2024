@@ -4,23 +4,28 @@
 	Nairobi Orange			#ef4d26
 	Nairobi Gold 			#fdb958
 */
-
-
-
-
 /*	HEADER SECTION
 ===================================================
 ===============================================  */
-	
-	/*  Block Nav  */
+/*  Block Nav  */
 .wp-block-navigation.nairobi-blocknav-header ul li a.wp-block-navigation-item__content {
-	color: red !important;
-	}	
-	
-	
-	
+	color: #241921;
+	}
+.wp-block-navigation.nairobi-blocknav-header ul li.current-menu-item a.wp-block-navigation-item__content,
+.wp-block-navigation.nairobi-blocknav-header ul li a.wp-block-navigation-item__content:hover {
+	color: #ef4d26;
+	}
+.wp-block-navigation.nairobi-blocknav-header ul li ul li a.wp-block-navigation-item__content {
+	color: #ffffff;
+	}
+.wp-block-navigation.nairobi-blocknav-header ul li ul li a.wp-block-navigation-item__content:hover {
+	color: #ffffff;
+	}
 
-	
+
+
+
+
 wp-block-navigation
 
 /*	TEMPORARY STYLES FOR ADMIN UI
@@ -31,5 +36,5 @@ wp-block-navigation
 
 /*  Temporary Styles for Admin UI  */
 body #wpadminbar {
-    position: relative;
+	position: relative;
 }
