@@ -14,6 +14,7 @@
 	
 	/*  Block Nav  */
 .wp-block-navigation.nairobi-blocknav-header ul li a.wp-block-navigation-item__content {
+	color: red !important;
 	}	
 	
 	
