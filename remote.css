@@ -1,1 +1,51 @@
-@import url("https://dev.adapa.digital/wcnairobi-temp/fontawesome-free-5.15.4-web/css/all.css");
+
+
+
+/*	GENERAL
+===================================
+===============================  */
+
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0 0 20px;
+}
+p {
+    margin: 0 0 20px 0;
+	}
+
+/*  GENERAL BLOCKS
+	---------------------------  */
+
+body .wp-site-blocks .kanairo-header-logo {
+    width: 100%;
+    max-width: 100%;
+    }
+body .wp-site-blocks .kanairo-header-logo img {
+    width: 95%;
+    max-width: 95%;
+    }
+
+
+/*	HEADER SECTION
+===================================
+===============================  */
+
+/*  HEADER
+	-----------------------------------  */
+body .wp-site-blocks .kanairo-blockgroup-header2-wrap {
+    height: 100vh; 
+    min-height: 100vh; /* to prevent overflow */
+    display: flex;
+    flex-direction: column;
+    }
+body .wp-site-blocks .kanairo-blockgroup-header2-wrap .kanairo-blockgroup-header2-hero {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    }
+body .wp-site-blocks .kanairo-blockgroup-header2-wrap .kanairo-blockgroup-header2-hero .kanairo-blockgroup-header2-hero-inner {
+     width: 100%;
+    }
+body .wp-site-blocks .kanairo-blockgroup-header2-wrap .kanairo-blockgroup-header2-main {
+    flex-shrink: 0;
+    }
